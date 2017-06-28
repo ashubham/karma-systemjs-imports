@@ -14,9 +14,9 @@ $ npm i karma-systemjs-imports --save-dev
 ```javascript
 // karma.conf.js or grunt karma config
 plugins: [
-    'karma-systemjs-imports,
+    'karma-systemjs-imports',
     // Other plugins
-    ]
+]
 
 frameworks: ['jasmine', 'systemjs-imports'],
 browsers: ['Chrome],
