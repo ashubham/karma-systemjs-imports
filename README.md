@@ -19,7 +19,7 @@ plugins: [
 ]
 
 frameworks: ['jasmine', 'systemjs-imports'],
-browsers: ['Chrome],
+browsers: ['Chrome'],
 files: [/* Files to import normally using scripts */],
 systemjs: {
     /*
