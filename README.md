@@ -1,10 +1,15 @@
 # karma-systemjs-imports
+[![Build Status](https://travis-ci.org/ashubham/karma-systemjs-imports.svg?branch=master)](https://travis-ci.org/ashubham/karma-systemjs-imports)
+
 Add system imports when unit testing with Karma.
 
-Plays nicely along with `<scrip>` imports. Useful for gradual migration of unit tests from
+Plays nicely along with `<script>` imports. Useful for gradual migration of unit tests from
 Javascript -> Typescript/ES6.
 
-## Sample Usage
+```
+$ npm i karma-systemjs-imports --save-dev
+```
+## Simple Usage
 
 ```javascript
 // karma.conf.js or grunt karma config
